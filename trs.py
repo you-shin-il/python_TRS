@@ -20,8 +20,8 @@ import requests
 baseurl='https://connector.gigagenie.ai/ai/v1/client/api?'
 request={}
 
-client_id = 'Y2xpZW50X2lkMTU3MDY3NTI5OTQ2NA=='
-client_secret = 'Y2xpZW50X3NlY3JldDE1NzA2NzUyOTk0NjQ='
+client_id = 'Y2xpZW50X2lkMTU3NDgyMTYxMzA4Mw=='
+client_secret = 'Y2xpZW50X3NlY3JldDE1NzQ4MjE2MTMwODM='
 timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")[:-3]
 
 request['command'] = 'Translation'
